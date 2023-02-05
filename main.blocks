@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="bv40uzV8{^$#iA+6|}Ep">showIndigo</variable></variables><block type="device_button_event" id="3^a08auLY[b/Jc]~aUcM" x="-372" y="-67"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="40_t/Z_`#y:0;|L?U-At"><field name="VAR" id="bv40uzV8{^$#iA+6|}Ep">showIndigo</field><value name="VALUE"><shadow type="math_number" id="{C6R6Yhrsu;!H5+(d,LU"><field name="NUM">1</field></shadow></value></block></statement></block><block type="function_definition" id="x*T.;D/rE|`hGgn7pk3-" x="499" y="-27"><mutation name="ILOVEINDIGO" functionid="..BFS@:tS#Sy+:lk(s0p"></mutation><field name="function_name">ILOVEINDIGO</field><statement name="STACK"><block type="device_show_leds" id="xdb{nTi@jp_Hg0pfIV=g"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="#6#a7^vG$pP5s)0(c]KG"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="[#i7S?Ffhw!8=|tU+v6}"><field name="LEDS">`
+        . . . . # 
+        . # # # . 
+        . . # # . 
+        # # . # . 
+        . # . . .
+        `</field></block></next></block></next></block></statement></block><block type="device_forever" id="_cmBf4:kl%AVz8NXM~s?" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="QdAq]1H8b_}seiBTt)q4"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Vdci/{sW27~xSqY=X%AJ"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="7G9#.,@y;I9Q}XApPL:1"><field name="VAR" id="bv40uzV8{^$#iA+6|}Ep">showIndigo</field></block></value><value name="B"><shadow type="math_number" id="eDCcXyb9J6`.^4mIXlty"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="function_call" id="4b0LV$|%^^;y3`EQ7u$U"><mutation name="ILOVEINDIGO" functionid="..BFS@:tS#Sy+:lk(s0p"></mutation></block></statement><statement name="ELSE"><block type="function_call" id=":G|Yzg*O`j9pJG*zU%Pl"><mutation name="ILOVEDAD" functionid="SO/+1@u5{6KN+WIS3+p{"></mutation></block></statement></block></statement></block><block type="function_definition" id="D`3Q)WmoSMdR:UkI2s6}" x="784" y="-23"><mutation name="ILOVEDAD" functionid="SO/+1@u5{6KN+WIS3+p{"></mutation><field name="function_name">ILOVEDAD</field><statement name="STACK"><block type="device_show_leds" id="+7#*g,d!oDZ#o,~wNohy"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="/P)tl/WTjBI5wKj/6ifG"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_print_message" id="!e1UX{.*@nC3}K*^s-aE"><value name="text"><shadow type="text" id="1{8bH;8o7D:HP|;_WY?T"><field name="TEXT"> DAD</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="2SAfsq^V~8$#a,5::,Jv" x="-364" y="87"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="TXdvN]b+AK/{ae.~]@{L"><field name="VAR" id="bv40uzV8{^$#iA+6|}Ep">showIndigo</field><value name="VALUE"><shadow type="math_number" id="WG40n`T*{WXaT,Zdskbx"><field name="NUM">0</field></shadow></value></block></statement></block><block type="pxt-on-start" id="fM}oQA=R5k-FAw!^E^=W" x="44" y="481"><statement name="HANDLER"><block type="variables_set" id="V^vWCb8pEh:I$vT#PyZe"><field name="VAR" id="bv40uzV8{^$#iA+6|}Ep">showIndigo</field><value name="VALUE"><shadow type="math_number" id="JnGDs[VkG.wE|B?%v^2j"><field name="NUM">1</field></shadow></value></block></statement></block></xml>
